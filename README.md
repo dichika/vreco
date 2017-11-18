@@ -4,8 +4,7 @@ vreco
 
 ```r
 # install
-library(githubinstall)
-githubinstall("vreco")
+devtools::install_github("dichika/vreco")
 
 # usage
 library(vreco)
