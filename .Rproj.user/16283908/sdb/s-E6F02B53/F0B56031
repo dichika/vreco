@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "#'@name fire\n#'@description First, input strings. If the strings contains \"hito\" or \"soshiki\", you can get some oracle.\n#'@import beepr\nfire <- function(trg){\n  if(grepl(\"人\", trg)){\n    f <- system.file(package = \"vreco\", \"data/mitsui.wav\")\n  }else if(grepl(\"組織\", trg)){\n    f <- system.file(package = \"vreco\", \"data/mitsubishi.wav\")\n  }\n  beepr::beep(f)\n}\n\n",
+    "created" : 1510974207613.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3726319222",
+    "id" : "F0B56031",
+    "lastKnownWriteTime" : 1510975095,
+    "last_content_update" : 1510975095124,
+    "path" : "~/vreco/R/fire.R",
+    "project_path" : "R/fire.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,10 @@
+Package: vreco
+Type: Package
+Title: hitono mitsui, soshiki no mitsubishi
+Version: 0.1.0
+Author: dichika
+Description: hitono mitsui, soshiki no mitsubishi
+License: MIT
+Encoding: UTF-8
+Imports: beepr
+LazyData: true
